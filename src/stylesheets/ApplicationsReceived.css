@@ -1,0 +1,55 @@
+.applications_recieved{
+    width: 63.5%;
+    height: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.041);
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.texts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: -0.7em;
+}
+
+.right_text{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 0.8em;
+    align-items: center;
+    margin-left: 14%;
+    color: rgba(255, 255, 255, 0.527);
+}
+
+.right_text .link{
+    display: flex;
+    color : rgba(255, 255, 255, 0.527);
+}
+
+#link_icon{
+     position: relative;
+     top: 2px;
+}
+
+.right_text .link span{
+    position: relative;
+    top: -4px;
+    margin-right: 0.5em;
+}
+
+.right_text .links:hover,
+.right_text .link:hover{
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.chart{
+    height: 100%;
+}

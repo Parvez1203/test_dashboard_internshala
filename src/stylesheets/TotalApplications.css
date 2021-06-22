@@ -1,0 +1,87 @@
+.box{
+    border-radius: 7px;
+    border: 1px solid rgba(255, 255, 255, 0.048);
+    box-sizing: border-box;
+}
+
+.box:hover{
+    border: 1px dashed rgba(255, 255, 255, 0.24);
+    transition: ease-in-out;
+}
+
+.content{  
+    border-radius: 7px;
+    width: 100%;
+    height: 100%;
+    transition: 0.4s ease-in-out;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 4px;
+    position: relative;
+    font-size: 0.9em;
+}
+
+.content:hover .circle, .content:hover .up-down span{
+    color: white;
+    border-color: white !important; 
+}
+
+.figure{
+    font-size: 1.5em;
+}
+
+.icon{
+    justify-self: end;
+}
+
+.circle{
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   border: 5px solid rgb(136, 62, 165);
+   padding: 1.3em 1em;
+   grid-auto-rows: minmax(50px);
+   margin-right: 20px;
+}
+
+.up-down{
+    position: absolute;
+    bottom: 22px;
+    left: 18px;
+}
+
+.up_icon{
+    font-size: 1em !important;
+    margin-right: 2px;
+}
+
+#content1:hover{
+    background: rgb(136, 62, 165);
+    transform: translateX(20px) translateY(10px) scale(1.1);
+    box-sizing: border-box;
+    color: white;
+}
+
+
+#content2:hover{
+    background: rgb(0, 153, 255);
+    transform: translateX(20px) translateY(10px) scale(1.1);
+    box-sizing: border-box;
+}
+
+#content3:hover{
+    background: rgb(182, 20, 82);
+    transform: translateX(20px) translateY(10px) scale(1.1);
+    box-sizing: border-box;
+}
+
+.total_applications{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 30px;
+    grid-auto-rows: minmax(120px,auto); 
+    margin-right: 2em;
+}

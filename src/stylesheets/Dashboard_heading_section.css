@@ -1,0 +1,107 @@
+.heading_and_date{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading_and_date .heading{
+    font-size: 1.5em;
+    letter-spacing: 1.6px;
+}
+
+.heading_and_date .date{
+    letter-spacing: 1.6px;
+    text-transform: capitalize;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.date_blue{
+    color: rgb(46, 132, 230);
+}
+
+.Avatar{
+    font-size: 2.5em !important;
+}
+
+.right_section{
+    display: flex;
+    flex-direction: column;
+}
+
+.search{
+    position: relative;
+    margin-left: 1.5em;
+}
+
+
+.search_bar {
+    padding: 0.8em 3.7em;
+    background: transparent;
+    color: white;
+    border: none;
+    outline: 1px solid rgba(255, 255, 255, 0.068);
+}
+
+.search_bar:focus{
+  box-shadow: 0px 7px 20px rgba(255, 255, 255, 0.048);
+}
+
+.search_bar::placeholder{
+    font-family: 'Assistant' , sans-serif;
+
+}
+
+.search_icon{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+.add_and_search{
+    display: flex;
+}
+
+.add_btn{
+    margin-right: 2em;
+    font-weight: 600 !important;
+    letter-spacing: 2px !important;
+}
+
+.profile{
+    display: flex;
+    margin-left: 3em;
+    align-items: center;
+    margin-bottom: 0.6em;
+    justify-content: flex-end;
+
+
+}
+
+.profile span{
+    margin-left: 1em;
+    letter-spacing: 1.5px;
+}
+
+.profile span:last-child{
+    margin-left: 0.2em;
+}
+
+.heading_section{
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.notification{
+    position: relative;
+}
+
+.indicator{
+    width: 7px;
+    height: 7px;
+    background: rgb(46, 132, 230);
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 2px;
+}

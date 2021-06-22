@@ -1,0 +1,34 @@
+.applicant{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.applicant_info{
+    flex: 1;
+    justify-content: start;
+}
+
+.applicant_info .name{
+    font-size: 1em;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.applicant_info .role{
+    color: rgb(0, 183, 255);
+    text-transform: capitalize;
+}
+
+.applicant_info p{
+    font-size: 0.8em;
+}
+
+.applicant_icons{
+    font-size: 2em !important;
+    padding-top: 5px;
+    margin-right: 20px;
+}
+

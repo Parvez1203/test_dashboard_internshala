@@ -1,0 +1,30 @@
+.OpenPosition{
+    width: 30%;
+    border: 1px solid rgba(255, 255, 255, 0.075);
+    position: relative;
+    left: -2em;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+}
+
+.heading_text{
+    letter-spacing: 0.5px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    font-size: 0.9em;
+}
+
+.do-chart{
+    height: 79%;
+    
+}
+
+
+.the_chart{
+    position: relative;
+    top: -1em;
+    left: 4em;
+    width: 150px !important;
+    height: 150px !important;
+    cursor: pointer;
+}
