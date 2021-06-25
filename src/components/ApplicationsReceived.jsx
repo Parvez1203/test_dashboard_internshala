@@ -2,7 +2,7 @@ import React from 'react';
 import '../stylesheets/ApplicationsReceived.css';
 import CloudDownloadIcon from '@material-ui/icons/CloudDownload';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
-import {AreaChart, Area, XAxis, YAxis, CartesianGrid, ResponsiveContainer,Tooltip } from 'recharts';
+import {AreaChart, Area, XAxis, YAxis, ResponsiveContainer,Tooltip } from 'recharts';
 
 function ApplicationsReceived() {
     const pdata = [
