@@ -6,7 +6,7 @@ import Applicant from './Applicant';
 
 function NewApplicants() {
     return (
-        <div className="NewApplicants">
+        <div data-testid="NewApplicants" className="NewApplicants">
             <p className = "welcome_text">Hello, Parvez Mir <br /> you have 8 new NewApplicants today!</p>
             <div className="img_container">
                 <img src={image} alt="" />
